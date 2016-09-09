@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei';
+            background: #efefef;
+        }
+
+        header {
+            position: relative;
+            height: 60px;
+            background: #333;
+        }
+
+        .header-img {
+            width: 80px;
+            height: 60px;
+        }
+
+        header ul {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            /*list-style: none;*/
+        }
+
+        header ul li {
+            text-align: center;
+            display: block;
+            width: 60px;
+            float: left;
+            padding: 19px 10px;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 12px;
+        }
+
+        article, aside {
+            display: block;
+            margin: 30px;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 1px 1px 2px 1px;
+        }
+
+        article h3 {
+            font-size: 16px;
+            padding: 10px 0px;
+            color: #808080;
+        }
+
+        article .author {
+            font-size: 12px;
+            color: #808080;
+        }
+
+        article .pub-time {
+            font-size: 12px;
+            color: #808080;
+            line-height: 30px;
+        }
+
+        article p {
+            text-indent: 2em;
+        }
+
+        .small-cat {
+            width: 180px;
+            height: 140px;
+            padding: 15px 0px;
+        }
+
+        article ul li {
+            list-style: none;
+        }
+
+        article dl dd {
+            width: 180px;
+            margin: 15px;
+            border: 1px solid #cccccc;
+        }
+
+        article dl dd span {
+            display: block;
+            margin: 5px;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        article dl dd img {
+            width: 160px;
+            padding: 10px;
+        }
+
+        article ol {
+            margin: 10px 40px;
+        }
+
+        article table {
+            text-align: center;
+            border: 1px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        article table tr th {
+            color: #fff;
+            background: #333333;
+        }
+
+        article table tr td {
+            border: 1px solid #ccc;
+        }
+
+        article a {
+            color: blue;
+        }
+
+        .last-tr {
+            background: #cccccc;
+        }
+
+        aside h4 {
+            height: 40px;
+            line-height: 40px;
+            padding-left: 10px;
+            border-left: 3px solid #cccccc;
+        }
+
+        aside form div label {
+            width: 35%;
+            float: left;
+            text-align: right;
+            padding-right: 15px;
+        }
+
+        aside form div p {
+            font-size: 0.8em;
+            color: #aaaaaa;
+            margin-left: 35%;
+            padding-left: 15px;
+        }
+
+        .form-control {
+            margin: 15px 0px;
+        }
+
+        aside textarea {
+            width: 50%;
+            height: 100px;
+        }
+
+        .submit-button {
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+            background: #128fdc;
+            color: white;
+            font-size: 19px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<header role="banner">
+    <h1>
+        <a href="#">
+            <img class="header-img" src="./static/cat.JPG">
+        </a>
+    </h1>
+    <nav role="navigation">
+        <ul>
+            <li><a href="#" target="_blank">链接一</a></li>
+            <li><a href="#" target="_blank">链接二</a></li>
+            <li><a href="#" target="_blank">链接三</a></li>
+            <li><a href="#" target="_blank">链接四</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <span class="author">文章作者</span> <span class="pub-time">文章发布时间</span>
+        <p>
+            这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!该换行了<br>
+            这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!
+            <a href="#" target="_blank">新标签页打开网页</a>
+        </p>
+        <img src="./static/cat.JPG" class="small-cat" alt="喵…">
+        <p>
+            这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!该换行了<br>
+            <strong>我是粗体字</strong>
+            这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!
+            <a href="#" target="_blank">新标签页打开网页</a>
+        </p>
+    </article>
+
+    <article>
+        <h2>另一篇文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <span class="author">文章作者</span> <span class="pub-time">文章发布时间</span>
+        <p>
+            这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!该换行了<br>
+            这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!
+            <a href="#" target="_blank">新标签页打开网页</a>
+        </p>
+        <img src="./static/cat.JPG" class="small-cat" alt="喵…">
+        <p>
+            这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!该换行了<br>
+            <strong>我是粗体字</strong>
+            这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!这是一个很长的段落,哈哈!
+            <a href="#" target="_blank">新标签页打开网页</a>
+        </p>
+        <ul>
+            <li>列表项目一</li>
+            <li>列表项目一</li>
+            <li>列表项目一</li>
+        </ul>
+    </article>
+
+    <article>
+        <h2>图片</h2>
+        <dl>
+            <dt></dt>
+            <dd>
+                <span>喵喵喵</span>
+                <img src="./static/cat.JPG" alt="喵">
+            </dd>
+            <dd>
+                <span>喵喵喵</span>
+                <img src="./static/cat.JPG" alt="喵">
+            </dd>
+            <dd>
+                <span>喵喵喵</span>
+                <img src="./static/cat.JPG" alt="喵">
+            </dd>
+            <dd>
+                <span>喵喵喵</span>
+                <img src="./static/cat.JPG" alt="喵">
+            </dd>
+        </dl>
+    </article>
+
+    <article>
+        <h2>最后一篇文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <span class="author">文章作者</span> <span class="pub-time">文章发布时间</span>
+        <ol>
+            <li>排名1</li>
+            <li>排名2</li>
+            <li>排名3</li>
+        </ol>
+        <p>下面是一个表格</p>
+        <table>
+            <tbody>
+            <tr>
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+            <tr>
+                <td>单元格内容</td>
+                <td>单元格内容</td>
+                <td>
+                    <a href="#">操作</a>
+                </td>
+            </tr>
+            <tr>
+                <td>单元格内容</td>
+                <td>单元格内容</td>
+                <td>
+                    <a href="#">操作</a>
+                </td>
+            </tr>
+            <tr>
+                <td>单元格内容</td>
+                <td>单元格内容</td>
+                <td>
+                    <a href="#">操作</a>
+                </td>
+            </tr>
+            <tr>
+                <td>单元格内容</td>
+                <td>单元格内容</td>
+                <td>
+                    <a href="#">操作</a>
+                </td>
+            </tr>
+            <tr class="last-tr">
+                <td>总计</td>
+                <td colspan="2">1000</td>
+            </tr>
+            </tbody>
+        </table>
+    </article>
+</main>
+<aside>
+    <h4>这里是一个侧栏,这是侧栏的标题</h4>
+    <form action="javascript:void();">
+        <div>
+            <div class="form-control">
+                <label for="email">请输入邮箱地址</label>
+                <input id="email" type="text" placeholder="邮箱">
+                <p>邮箱格式请按要求输入</p>
+            </div>
+            <div class="form-control">
+                <label for="password">请输入密码</label>
+                <input id="password" type="password" placeholder="密码">
+            </div>
+            <div class="form-control">
+                <label for="re-password">请重复输入密码</label>
+                <input id="re-password" type="password" placeholder="请重复输入密码">
+                <p>密码请为6-16位英文数字</p>
+            </div>
+            <div class="form-control">
+                <label>性别</label>
+                <input type="radio" name="gender">男
+                <input type="radio" name="gender">女
+            </div>
+            <div class="form-control">
+                <label for="city">城市</label>
+                <select id="city">
+                    <option>上海</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label>爱好</label>
+                <input type="checkbox" name="hobby">运动
+                <input type="checkbox" name="hobby">艺术
+                <input type="checkbox" name="hobby">科学
+            </div>
+            <div class="form-control">
+                <label>个人描述</label>
+                <textarea rows="2" cols="20">
+                    这是一个多行输入框
+                </textarea>
+            </div>
+        </div>
+    </form>
+    <button type="button" class="submit-button">确认提交</button>
+</aside>
+
+</body>
+</html>
