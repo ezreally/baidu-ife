@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习3-三栏式布局</title>
+
+    <style>
+
+        body {
+            padding: 20px;
+        }
+
+        .main-wrapper {
+            margin: 0 auto;
+            padding: 20px;
+            overflow: auto;
+            background: #eeeeee;
+            border: 1px solid #999999;
+            min-width: 600px;
+        }
+
+        .left {
+            float: left;
+            padding: 19px;
+            width: 160px;
+            position: relative;
+            border: 1px solid #999999;
+            background: #ffffff;
+        }
+
+        .middle {
+            margin-left: 240px;
+            margin-right: 140px;
+            padding: 20px;
+            border: 1px solid #999999;
+            background: #ffffff;
+        }
+
+        .right {
+            float: right;
+            width: 80px;
+            padding: 0px 19px;
+            border: 1px solid #999999;
+            background: #ffffff;
+        }
+
+        .team-logo {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #999999;
+        }
+
+        .team-name {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        .logo-person {
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin: 20px 0px;
+            border: 1px solid #999999;
+        }
+
+        .middle h2 {
+            margin: 0px;
+        }
+
+        .middle p {
+            text-indent: 2em;
+        }
+    </style>
+</head>
+<body>
+<div class="main-wrapper">
+    <div class="left">
+        <img class="team-logo" src="./static/cat.JPG" alt="喵">
+        <p class="team-name">杨桃桃</p>
+    </div>
+
+    <div class="right">
+        <img class="logo-person" src="./static/cat.JPG" alt="">
+        <img class="logo-person" src="./static/cat.JPG" alt="">
+        <img class="logo-person" src="./static/cat.JPG" alt="">
+        <img class="logo-person" src="./static/cat.JPG" alt="">
+    </div>
+
+    <div class="middle">
+        <h2>杨桃桃的练习3</h2>
+        <h4>团队介绍</h4>
+        <p>
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+        </p>
+        <h4>队员介绍</h4>
+        <p>
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+            杨桃桃的练习3!杨桃桃的练习3!杨桃桃的练习3!
+        </p>
+    </div>
+</div>
+</body>
+</html>

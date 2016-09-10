@@ -2,11 +2,11 @@
 
 ---
 
-### 1. task 01
+### 1. task 01 HTML
 >*   主要用到了常用的`html`标签,以及对布局的初步运用
 
 [预览地址](http://121.199.32.140/frontend-in-action/task 01/task_1_1_1.html)
-### 2. task 02 
+### 2. task 02 HTML+CSS 
 >* 在task 01的基础上,加入了`css`的练习,加深了我对`css`的理解
 >* 浮动定位(`float:left|right|inherit`),和绝对定位(`postion:absolute`)会使元素脱离文档流
 >* 脱离文档流的元素通过z-index可以设置层叠顺序,数字小的被覆盖
@@ -27,3 +27,9 @@
 ```
 
 [预览地址](http://121.199.32.140/frontend-in-action/task 02/task_1_2_1.html)
+
+### 3. task 03 三栏式布局
+
+>* 左右分别设置为浮动定位(`float:left & float:right`),中间通过`margin-left`和`margin-right`保持在中间
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 03/task_1_3_1.html)
