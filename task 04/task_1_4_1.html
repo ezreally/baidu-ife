@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习4-定位和居中问题</title>
+
+    <style>
+        .main {
+            width: 400px;
+            height: 200px;
+            background: #cccccc;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -200px;
+            margin-top: -100px;
+        }
+
+        .left-top {
+            width: 50px;
+            height: 50px;
+            background: #fc0;
+            border-radius: 0px 0px 50px 0px;
+        }
+
+        .right-bottom {
+            width: 50px;
+            height: 50px;
+            background: #fc0;
+            border-radius: 50px 0px 0px 0px;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="left-top"></div>
+    <div class="right-bottom"></div>
+</div>
+</body>
+</html>
