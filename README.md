@@ -46,3 +46,9 @@
 >* 前面的综合应用
 
 [预览地址](http://121.199.32.140/frontend-in-action/task 05/task_1_5_1.html)
+
+### 6. task 06
+
+>* 前面的综合应用
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 06/task_1_6_1.html)
