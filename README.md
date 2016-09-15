@@ -62,7 +62,7 @@
 
 [预览地址](http://121.199.32.140/frontend-in-action/task 08/index.html)
 
-### 8. task 09
+### 9. task 09
 
 >* display:flex的应用
 >* [参考资料](https://segmentfault.com/a/1190000002910324)
