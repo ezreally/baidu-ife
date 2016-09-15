@@ -61,3 +61,10 @@
 >* .col的宽度根据浏览器的宽度变化动态计算,使用了calc()这个语法
 
 [预览地址](http://121.199.32.140/frontend-in-action/task 08/index.html)
+
+### 8. task 09
+
+>* display:flex的应用
+>* [参考资料](https://segmentfault.com/a/1190000002910324)
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 09/index.html)

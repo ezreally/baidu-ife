@@ -1,0 +1,56 @@
+html, body, .flex {
+    margin: 0px;
+    padding: 20px;
+}
+
+.flex, .flex-item {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: none;
+    border: 1px solid #000000;
+}
+
+.flex-item {
+    width: 150px;
+    border: 1px solid #f00;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-1 {
+    height: 120px;
+    line-height: 120px;
+}
+
+.item-2 {
+    height: 100px;
+    line-height: 100px;
+}
+
+.item-3 {
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.item-4 {
+    height: 200px;
+    border: 1px solid #0f0 !important;
+    line-height: 200px;
+}
+
+@media all and (max-width: 640px) {
+    .flex {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .item-4 {
+        order: -1;
+    }
+}
