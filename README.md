@@ -52,3 +52,12 @@
 >* 前面的综合应用
 
 [预览地址](http://121.199.32.140/frontend-in-action/task 06/task_1_6_1.html)
+
+### 8. task 08
+
+>* 仿bootstrap响应式栅格布局
+>* .container控制整个布局容器,设置padding值使其内部的元素不至于紧贴着浏览器
+>* .row包裹着.col,为了清除浮动,设置.row的两个伪类选择器(before,after)
+>* .col的宽度根据浏览器的宽度变化动态计算,使用了calc()这个语法
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 08/index.html)
