@@ -68,3 +68,25 @@
 >* [参考资料](https://segmentfault.com/a/1190000002910324)
 
 [预览地址](http://121.199.32.140/frontend-in-action/task 09/index.html)
+
+### 13. task 13
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 13/index.html)
+
+### 14. task 14
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 14/index.html)
+
+### 15. task 15
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 15/index.html)
+
+### 16. task 16
+
+>* 遍历属性(`for(var prop in obj)`)
+>* 事件委派
+>* call,apply的区别?apply传参必须是数组
+>* dataset的运用
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 16/index.html)
+
