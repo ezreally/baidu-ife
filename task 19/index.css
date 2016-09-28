@@ -1,0 +1,10 @@
+.queue-element {
+    box-sizing: content-box;
+    background-color: #75b86b;
+    display: inline-block;
+    margin: 2px;
+    width: 20px;
+    box-shadow: #cccccc;
+}
+
+

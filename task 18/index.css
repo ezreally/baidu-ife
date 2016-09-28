@@ -1,0 +1,12 @@
+.queue-element {
+    border: 1px solid #000000;
+    box-sizing: content-box;
+    background-color: #ff0000;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    width: 30px;
+}
+
+

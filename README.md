@@ -94,3 +94,17 @@
 >* 这个有点难度
 
 [预览地址](http://121.199.32.140/frontend-in-action/task 17/index.html)
+
+### 18. task 18
+
+>* 闭包的运用
+>* 函数作为参数传递的运用
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 18/index.html)
+
+### 19. task 19
+
+>* 数组克隆:`array.concat()||array.slice(0)`
+>* 定时器实现简单的动画效果
+
+[预览地址](http://121.199.32.140/frontend-in-action/task 19/index.html)
